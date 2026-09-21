@@ -82,6 +82,7 @@ int add(struct numbers n){
     return n.a+n.b;
 }
 ```
+
 Output:
 
 <img width="259" height="298" alt="image" src="https://github.com/user-attachments/assets/2fe19c0b-39ca-4a5e-9a63-2eb1927404c3" />
@@ -127,7 +128,9 @@ int main(){
     printf("%s File Closed" ,a); 
 }
 ```
+
 Output:
+
 <img width="935" height="312" alt="image" src="https://github.com/user-attachments/assets/223a483b-5842-4fbc-b354-36b5c06bf3ff" />
 
 
@@ -174,7 +177,9 @@ int main(){
     printf("\nData added Successfully");
 }
 ```
+
 Output:
+
 <img width="640" height="296" alt="image" src="https://github.com/user-attachments/assets/98da0d07-f76d-4995-b2fb-61e414ac76b2" />
 
 Result:
@@ -245,7 +250,9 @@ int main() {
     return 0;
 }
 ```
+
 Output:
+
 <img width="394" height="266" alt="image" src="https://github.com/user-attachments/assets/bf7b01ce-de4c-4716-a26b-a58d90b170dc" />
 
 Result:
