@@ -1,13 +1,8 @@
-
-
-EXP NO 26: C PROGRAM TO DISPLAY STACK ELEMENTS USING LINKED LIST.
-
-Aim:
-
+## EXP NO 26: C PROGRAM TO DISPLAY STACK ELEMENTS USING LINKED LIST.
+### Aim:
 To write a C program to display stack elements using linked list.
 
-Algorithm:
-
+### Algorithm:
 1.	Define a structure Node with two members: data to store the integer value and next to point to the next node in the linked list.
 2.	Declare a global variable head representing the starting node of the linked list.
 3.	Define a function display to print the elements of the linked list.
@@ -16,8 +11,8 @@ Algorithm:
 6.	Print the data of the current node.
 7.	Move to the next node using the next pointer.
  
-Program:
-```
+### Program:
+```c
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -63,32 +58,31 @@ int main() {
 }
 ```
 
-Output:
+### Output:
 
-<img width="441" height="149" alt="WhatsApp Image 2026-09-22 at 6 33 51 PM" src="https://github.com/user-attachments/assets/6903366d-bb17-418d-b2ba-e1a1df459293" />
+<img width="441" height="149" alt="image" src="https://github.com/user-attachments/assets/0fbf1455-b331-4f33-b290-1fb2e9e211ee" />
 
-Result:
 
+
+### Result:
 Thus, the program to display stack elements using linked list is verified successfully. 
 
+---
 
-
-EXP.NO 27: C PROGRAM TO POP AN ELEMENT FROM THE GIVEN STACK USING 
-LINKED LIST.
-
-Aim:
-
+## EXP.NO 27: C PROGRAM TO POP AN ELEMENT FROM THE GIVEN STACK USING LINKED LIST.
+### Aim:
 To write a C program to pop an element from the given stack using liked list.
 
-Algorithm:
-
+### Algorithm:
 1.	Check for Empty Stack
 2.	If head is equal to NULL, Print "Stack is empty."
 3.	Else Proceed to the next step.
 4.	Set head to point to the next node in the stack.
  
-Program:
-```
+### Program:
+
+```c
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -161,33 +155,32 @@ int main() {
         }
     }
 }
+
+
 ```
 
-Output:
+### Output:
+<img width="330" height="621" alt="image" src="https://github.com/user-attachments/assets/9d7c7c14-c2a1-4b7e-8bc7-22e561e3879d" />
 
-<img width="330" height="621" alt="WhatsApp Image 2026-09-22 at 6 34 08 PM" src="https://github.com/user-attachments/assets/95153c16-2d0b-4890-b163-41073ba014aa" />
 
-Result:
 
+### Result:
 Thus, the program to pop an element from the given stack using liked list is verified successfully.
 
+ ---
  
-EXP NO:28 C PROGRAM TO DISPLAY QUEUE ELEMENTS USING LINKED LIST.
-
-Aim:
-
+## EXP NO:28 C PROGRAM TO DISPLAY QUEUE ELEMENTS USING LINKED LIST.
+### Aim:
 To write a C program to display queue elements using linked list.
-
-Algorithm:
-
+### Algorithm:
 1.	Check if Queue is Empty
 2.	Display Queue Elements
 3.	Print the data of the current node pointed to by front
 4.	Update front to point to the next node.
 5.	End the display function.
  
-Program:
-```
+### Program:
+```c
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -252,23 +245,25 @@ int main() {
         }
     }
 }
+
+
 ```
 
-Output:
+### Output:
+<img width="399" height="721" alt="image" src="https://github.com/user-attachments/assets/b81cd2a2-7dfa-449f-af03-732a374d211e" />
 
-<img width="399" height="721" alt="WhatsApp Image 2026-09-22 at 6 34 27 PM" src="https://github.com/user-attachments/assets/03731418-2418-4966-a79b-96c072c45c7f" />
 
-Result:
+### Result:
 Thus, the program to display queue elements using linked list is verified successfully.
 
-
+---
  
-EXP NO:29 C PROGRAM TO INSERT ELEMENTS IN QUEUE USING LINKED LIST
+## EXP NO:29 C PROGRAM TO INSERT ELEMENTS IN QUEUE USING LINKED LIST
 
-Aim:
+### Aim:
 To write a C program to insert elements in queue using linked list
 
-Algorithm:
+### Algorithm:
 1.	Allocate Memory for New Node
 2.	Set Data and Next Pointer
 3.	Check if Queue is Empty
@@ -276,8 +271,8 @@ Algorithm:
 5.	Set the next pointer of the current rear to point to the new node p.
 6.	End of Enqueue Operation
  
-Program:
-```
+### Program:
+```c
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -343,34 +338,35 @@ int main() {
         }
     }
 }
+
+
 ```
+### Output:
 
-Output:
+<img width="345" height="840" alt="image" src="https://github.com/user-attachments/assets/1fdfd6be-da4e-490a-afb2-605e1b50d75d" />
 
-<img width="345" height="840" alt="WhatsApp Image 2026-09-22 at 6 34 45 PM" src="https://github.com/user-attachments/assets/f4a08dda-c54a-4c3f-8035-b8f20471560e" />
 
-Result:
-
+### Result:
 Thus, the program to insert elements in queue using linked list is verified successfully.
 
+---
+
+## EXP NO:30 C FUNCTION TO FIND THE PEEK OF QUEUE USING LINKED LIST.
 
 
-EXP NO:30 C FUNCTION TO FIND THE PEEK OF QUEUE USING LINKED LIST.
-
-
-Aim:
+### Aim:
 
 The aim of this function is to retrieve the "peek" (the front element) of a queue implemented using a linked list
 
-Algorithm:
+### Algorithm:
 
 1.	Check if the queue is empty:
 o	If the queue is empty (i.e., the front pointer is NULL), return an error or a message indicating that the queue is empty.
 2.	Access the front element:
 o	If the queue is not empty, return the data stored in the front node of the linked list (i.e., the element at the head of the queue).
 
-Program:
-```
+### Program:
+```c
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -448,15 +444,20 @@ int main() {
         }
     }
 }
+
+
+
 ```
 
-Output:
+### Output:
+<img width="300" height="819" alt="image" src="https://github.com/user-attachments/assets/243234ca-0559-4f6c-936d-a5afb358f0d7" />
 
-<img width="300" height="819" alt="WhatsApp Image 2026-09-22 at 6 35 08 PM" src="https://github.com/user-attachments/assets/59913e5f-0e72-4622-852f-8806ec8a47be" />
 
 
-Result:
+
+### Result:
 
 Thus, the program to retrieve the "peek" (the front element) of a queue implemented using a linked list is verified successfully.
+
 
 
